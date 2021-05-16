@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: burlywood;
+            max-width: 400px;
+        }
+        ::-webkit-scrollbar
+        {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-thumb
+        {
+            background: cadetblue;
+        }
+        #firulas
+        {
+            word-wrap: break-word;
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 0;
+        }
+        p
+        {
+            background-color: darkcyan;
+            padding: 5px;
+        }
+        #apagar
+        {
+            background-color: darkred;
+            text-align: center;
+            color: goldenrod;
+        }
+        #apagar:hover
+        {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="apagar">CLIQUE AQUI PARA LIMPAR A LISTA</div>
+    <div id="firulas">
+        
+    </div>
+    <input type="text" id="input" placeholder="Texto pra salvar">
+    <script src="popup.js"></script>
+</body>
+</html>
