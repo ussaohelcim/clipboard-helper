@@ -22,6 +22,7 @@ Exemplo no Edge:
 ![Exemplo no Edge](https://cdn.discordapp.com/attachments/639557473262370850/843593428113948693/unknown.png)
 
 Exemplo em Funcionamento:
+
 ![ex](https://cdn.discordapp.com/attachments/639557473262370850/843594058131439626/unknown.png)
 
 ## Modo de uso
