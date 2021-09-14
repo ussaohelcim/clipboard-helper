@@ -1,8 +1,9 @@
 # clipboard-helper
 Uma extensão chromium simples para salvar, localmente, pequenos textos como links, lembretes, senhas, comandos etc...
 
-### Como instalar
-Eu subi a extensão na loja do Microsoft Edge, porem ainda não esta disponivel para usar.
+# Como instalar
+
+Você pode fazer o download pela loja de extensões do Microsoft Edge aqui: https://microsoftedge.microsoft.com/addons/detail/clipboard-helper/ijlmlcnodahhnahidmknhoaefkkegnph
 
 Para usar você deve baixar a extensão.
 https://github.com/ussaohelcim/clipboard-helper/releases/download/v0.01/clipboard-helper.zip
