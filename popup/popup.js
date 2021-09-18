@@ -16,7 +16,7 @@ else
 document.querySelector("#input").addEventListener("keydown",function(a){
     if(a.code == "Enter" || a.code == "NumpadEnter")
     {
-        document.querySelector("#firulas").innerHTML+= `<p>${document.querySelector("#input").value}</p>`;
+        document.querySelector("#firulas").innerHTML+= `<p id='k${contador}'>${document.querySelector("#input").value}</p>`;
         localStorage.setItem("k"+contador,document.querySelector("#input").value)
         contador++;
         document.querySelector("#input").value = "";
@@ -29,7 +29,8 @@ function EscreverFirulas()
     });
 }
 
-document.querySelector("#apagar").addEventListener("click",function(){
+document.querySelector("#btnapagar").addEventListener("click",function(){
     localStorage.clear()
+    contador = 1
     document.querySelector("#firulas").innerHTML = ""
 })
