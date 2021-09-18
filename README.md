@@ -11,6 +11,7 @@ https://github.com/ussaohelcim/clipboard-helper/releases/download/v0.01/clipboar
 2. Entre nas extensões do seu navegador
 3. Habilite o modo de desenvolvedor
 4. Clique em "carregar sem compactação" ou "load unpacked"
+5. Vá ate o diretorio que você salvou este repositorio e aperte em selecionar
 
 Pronto, você já pode usar agora.
 
